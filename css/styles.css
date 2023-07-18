@@ -359,3 +359,11 @@ body {
 
 .achievements-item {
 }
+
+.skills-container li {
+  margin-top: 15px;
+}
+
+.skills-container p {
+  margin-top: 25px;
+}
