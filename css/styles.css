@@ -194,6 +194,7 @@ body {
 
 .profession {
   display: flex;
+  margin-top: 50px;
 }
 
 .profession-title {
@@ -201,6 +202,15 @@ body {
   font-weight: 700;
   line-height: 1.5;
   margin-left: 15px;
+  /* margin-top: 30px; */
+}
+
+.profession-description {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 15px;
+  margin-top: 25px;
 }
 
 .profession-company {
@@ -230,6 +240,8 @@ body {
 }
 
 .profession-duties-item,
+.achievements-item,
+.achievements-list-item,
 .profession-achievement-item {
   color: var(--accent-text-сolor);
   font-size: var(--descr-font-size);
@@ -340,4 +352,10 @@ body {
   .profession-duties {
     margin-top: 0;
   }
+}
+
+.achievements {
+}
+
+.achievements-item {
 }
